@@ -1,5 +1,5 @@
 {% set name = "icecream" %}
-{% set version = "2.1.5" %}
+{% set version = "2.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 14d21e3383326a69a8c1a3bcf11f83283459f0d269ece5af83fce2c0d663efec
+  sha256: f5e7955472aaef413fe84dad8d53b02d8a8637273c1f0fa1eaf08ce239462ce9
 
 build:
   noarch: python
